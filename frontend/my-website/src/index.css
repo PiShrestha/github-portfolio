@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #584c4c;
+  color: #ffffff; /* Ensure text is visible against the dark background */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px; /* Adds some space at the top */
+}
+
+h2 {
+  text-align: center;
+  color: #c11a1a;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  margin: 20px 0; /* Adds some margin around the navigation */
+}
+
+nav a {
+  margin: 0 15px; /* Adds spacing between navigation links */
+  text-decoration: none; /* Removes the underline from links */
+  color: #ffffff; /* Sets link color to white */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #c11a1a; /* Change color on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px; /* Adds space before the footer */
+  padding: 10px 0; /* Adds padding around the footer text */
+  background-color: #333; /* Dark background for footer */
+}
